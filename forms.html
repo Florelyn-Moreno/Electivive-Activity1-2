@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Simple Structure</title>
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body>
+    <header> 
+        <h1> College of Information and Computing Sciences</h1>
+        <h3> Bachelor of Science in Information Systems</h3>
+        <div class="container">
+            <a href="../index.html">Home</a>|
+            <a href="about.html">About</a>|
+            <a href="contactUs.html">Contact Us</a>|
+            <a href="inquiry.html">Inquiry</a>|
+            <a href="profile.html">Profile</a>
+        </div>
+    </header>
+    <section>
+        <nav class="form_group">
+            <ul class="navigation_menu">
+                <li><a href="heading.html">Heading</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="list.html">HTML List</a></li>
+                <li><a href="form.post.php">Form Post Method</a></li>
+                <li><a href="images.html">Image</a></li>
+            </ul>
+        </nav>
+        <article class="form_group">
+            <div>
+                <h2>HTML Form</h2>
+                <p align="justify">
+                    An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+                </p>
+
+            
+                <section class="form1">
+                    <h3>Form Example</h3>
+                    <form action="images.html" method="get">
+                        <div class="form-page"><input type="text" name="name" placeholder="First Name" required></div>
+                        <div class="form-page"><input type="text" name="lname" placeholder="Last Name" required></div>
+                        <div class="form-page"><button type="submit">Submit</button></div>
+                        <div class="form-page">Date: <input type="date" name="date" id="date"></div>
+                        <div class="form-page">Email: <input type="email" name="email" id="email" placeholder="Email"></div>
+                        <div class="form-color">Color: <input type="color" name="color" id="color"></div><br>
+                        <div class="form-page">Upload File: <input type="file" name="dataFile" id="dataFile"></div>
+                        <div class="form-page">Date Time Data: <input type="datetime" name="datetime" id="datetime"></div>
+                        <div class="form-page">Password: <input type="password" name="password" id="password" placeholder="Password"></div>
+                        <div class="form-page">Button: <button type="submit">Example</button></div>
+                        <div class="selection">Selection:
+                            <select name="" id="">
+                                <option value="" disabled selected>--Choose Municipality--</option>
+                                <option value="">Boac</option>
+                                <option value="">Santa Cruz</option>
+                                <option value="">Mogpog</option>
+                                <option value="">Gasan</option>
+                            </select>
+                        </div>
+                        <div class="form-page"><button disabled>Disabled Button</button></div>
+                        <fieldset>
+                            <input type="radio" id="english">
+                            <label for="english">English</label>
+                            <input type="radio" id="hindi">
+                            <label for="hindi">Hindi</label>
+                            <input type="radio" id="telegu">
+                            <label for="telegu">Telegu</label>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <textarea name="message" placeholder="Please Input Your Message"></textarea>
+                        </fieldset>
+                        <br>
+                        <label for="">Data List:</label>
+                        <input list="values" name="answer">
+                        <datalist id="values">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="C#">C#</option>
+                            <option value="PHP">PHP</option>
+                        </datalist>
+                        <br>
+                    </form>
+                </section>
+                
+                <section class="form2">
+                  <br>
+                    <form action="form.post.html" method="get">
+                        <fieldset>
+                            <legend>Form Input Data</legend>
+                            <label for="name">Enter Your Name:</label>
+                            <input type="text" name="name" id="name"><br>
+                            <label for="age">Enter Your Age:</label>
+                            <input type="number" name="age" id="age"><br>
+                            <label for="dataMonth">Input Month:</label>
+                            <input type="month" name="dataMonth" id="dataMonth"><br>
+                            <label for="dataWeek">Week:</label>
+                            <input type="week" name="dataWeek" id="dataWeek"><br>
+                            <label for="dataTime">Time:</label>
+                            <input type="time" name="dataTime" id="dataTime"><br><br>
+                            <input type="submit" value="submit">
+                        </fieldset>
+                    </form>
+                </section>
+                
+            </div>
+        </article>  
+    </section>
+    <footer> 
+        <div>
+            <h2>MarSU</h2>
+        </div>
+        <div class="footer_menu">
+            <a href="about.html">About</a>|
+            <a href="policy.html">Policy</a>|
+            <a href="termsOfUse.html">Terms of Use</a>|
+            <a href="privacy.html">Privacy</a>|
+            <a href="faq.html">FAQ</a>|
+            <a href="contactUs.html">Contact</a> 
+        </div>
+        <div> 
+            <p> Copyright &copy; 2024. <b>MarSU Sta. Cruz Campus BSIS Campus</b></p>
+        </div>
+    </footer>
+</body>
+</html>

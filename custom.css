@@ -1,0 +1,194 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #201E43;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    
+}
+header .container a{
+    color: white;
+    padding:15px;
+    text-decoration: none;
+
+} 
+header .container a:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+ 
+}
+nav{
+    float: left;
+    width: 20%;
+    background-color: #134B70;
+    height: 700px;
+  
+}
+
+.about p {
+    text-align: justify;
+}
+
+article{
+    float: left;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 700px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.form_group{
+    height: 2000px;
+}
+.contactUs{
+    min-width: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container h2{
+    margin-bottom: 40px;
+    color: #508C9B;
+}
+.contact-form h3{
+    margin-bottom: 20px;
+    
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-page button{
+    border-radius:  8px; 
+}
+input, textarea{
+    width: 80%;
+    padding: 12px;
+    border-radius:  8px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.form-page{
+    margin-bottom: 20px;
+   
+}
+input:focus, textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #508C9B;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+    transform: 0.3s ease;
+    margin-top: 10px;
+    
+}
+button:hover{
+    background-color: #508c9b9d;
+}
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 30px;
+}
+.contact-info{
+    text-align: left;
+}
+.contact-info h3{
+    margin-bottom: 20px;
+    
+}
+.contact-info p{
+    margin-bottom: 10px;
+}
+.contact-info i{
+    margin-right: 10px;
+
+}
+.navigation_menu li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navigation_menu li{
+     list-style: none;  
+     padding: 15px;
+}
+.navigation_menu li:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+}
+footer{
+    text-align: center;
+    background-color: #508C9B;
+    padding: 30px;
+    color: white;
+}
+
+footer h2{
+    color: white;
+  
+}
+.footer_menu a{
+    color: white;
+    text-decoration: none;
+    padding:15px;
+} 
+@media screen and(max-width: 768px){.cpntainer
+    {padding: 20px;
+}
+.contact-wrapper {
+    
+    grid-template-columns: 1fr;
+}
+}   
+.w3-code {
+    width: 70%;
+    background-color: #fff;
+    color: #000;
+    padding: 14px 14x;
+    border-left: 5px solid #134B70;
+    border-radius: 8px;
+}
+table, th, td {
+    border: 2px solid;
+    border-color: #134B70;
+    text-align:  center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #508C9B;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+.form1{
+    float: left;
+}
+.form2{
+    float: right;
+}
+tr:nth-child(even){
+    background-color: #6eb0f2;
+}
+.list{
+    height: 1000px;
+}
+.firstColumn{
+    float: left;
+}
+.secondColumn{
+    float: right;
+}
